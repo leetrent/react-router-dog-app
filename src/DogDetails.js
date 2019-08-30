@@ -4,7 +4,7 @@ import "./DogDetails.css";
 
 export default class DogDetails extends Component {
     render() {
-        console.log("[DogDetails][render] => this.props:", this.props);
+        //console.log("[DogDetails][render] => this.props:", this.props);
 
         let { dog } = this.props;
         return (
@@ -15,7 +15,7 @@ export default class DogDetails extends Component {
                             <img className="card-img-top" src={dog.src} alt={dog.name}/>
                             <div className="card-body">
                                 <h2 className="card-title">{dog.name}</h2>
-                                <h4 clasName="card-subtitle text-muted">
+                                <h4 className="card-subtitle text-muted">
                                     {dog.age} years old
                                 </h4>
                             </div>
