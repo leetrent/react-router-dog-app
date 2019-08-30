@@ -4,8 +4,6 @@ import "./DogDetails.css";
 
 export default class DogDetails extends Component {
     render() {
-        //console.log("[DogDetails][render] => this.props:", this.props);
-
         let { dog } = this.props;
         return (
             <div className="container">

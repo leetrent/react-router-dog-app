@@ -14,8 +14,6 @@ export default class DogList extends Component {
                               <h3>{d.name}</h3>
                           </div>
                       ))}
-
-
                     </div>
                 </div>
             </div>
